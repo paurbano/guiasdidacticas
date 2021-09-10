@@ -1,0 +1,2 @@
+'Ingresa el número de imágenes, mínimo 6 y máximo 9'
+7

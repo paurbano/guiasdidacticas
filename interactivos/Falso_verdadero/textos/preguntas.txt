@@ -1,0 +1,12 @@
+10
+
+'El emisor es la persona que enuncia el mensaje en un acto de comunicación'
+'Gallo - gallina'
+'Tigre - tigrina'
+'Señor - señora'
+'Caballo - caballa'
+'Zorro - zorra'
+'Emperador - emperatriz'
+'Médico - médica'
+'Actor - actora'
+'Duque - duquesa'

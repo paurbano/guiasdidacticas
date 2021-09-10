@@ -1,0 +1,80 @@
+﻿<head>
+	<title>Falso y verdadero</title>
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+<body >
+<ajs name="Descartes" width=790 height=520
+        code="Descartes.class"
+        codebase="../"
+        archive="lib/Descartes5.jar,lib/Descartes5_Sonido.jar,lib/Descartes5_Algebra.jar"
+        MAYSCRIPT>
+   <param name="tama&ntilde;o" value="790x520">
+   <param name="pleca" value="title='PREGUNTAS DE CONOCIMIENTO GENERAL' subtitle='Lee las siguientes oraciones y responde V -VERDADERA o F -FALSA' subtitlines='2' bgcolor='268bea' fgcolor='ffffff' align='center' titleimage='images/instrucciones.jpg' titlefont='SansSerif,PLAIN,22' subtitlefont='SansSerif,PLAIN,22' ">
+   <param name="sonido" value="s&iacute;">
+   <param name="&aacute;lgebra" value="s&iacute;">
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="nombre" value="Descartes">
+   <param name="Versi&oacute;n" value="5.107, 2013-08-17">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no">
+   <param name="E_01" value="tipo='R2' id='E1' fijo='s&iacute;' escala='40' O.x='-55%' O.y='31%' despl_imagen='arr-izq' fondo='51c0ff' red='no' red10='no' ejes='no' texto='no'">
+   <param name="C_01" value="id='Verificar' tipo='num&eacute;rico' interfaz='bot&oacute;n' regi&oacute;n='interior' espacio='E1' nombre='Verificar' expresi&oacute;n='(350,420,121,31)' fijo='s&iacute;' visible='s&iacute;' color='blanco' color-int='d3f0f8ff' negrita='s&iacute;' fuente puntos='18' imagen='images/btn120.png' acci&oacute;n='calcular' par&aacute;metro='verifica=2' par&aacute;metro.fuente='Monospaced,PLAIN,12' dibujar-si='(termina=ejercicios)&amp;(verifica=0)'">
+   <param name="A_01" value="id='P' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='11' expresi&oacute;n='P[0]=0;P[1]=0;P[2]=0' archivo='textos/preguntas.txt'">
+   <param name="A_02" value="id='R' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='ejercicios*4+1' expresi&oacute;n='R[0]=0;R[1]=0;R[2]=0' archivo='textos/respuestas.txt'">
+   <param name="A_03" value="id='r' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='11' expresi&oacute;n='r[0]=&squot;&squot;;r[1]=&squot;&squot;;r[2]=&squot;&squot;;r[3]=&squot;&squot;;r[4]=&squot;&squot;;r[5]=&squot;&squot;;r[6]=&squot;&squot;;r[7]=&squot;&squot;;r[8]=&squot;&squot;;r[9]=&squot;&squot;;r[10]=&squot;&squot;'">
+   <param name="A_04" value="id='verifica()' algoritmo='s&iacute;' algoritmo='s&iacute;' hacer='p=E1.mouse_x;q=E1.mouse_y;r[1]=((p-17)^2+(q-8.5)^2&lt;0.2^2)?&squot;V&squot;:r[1];r[1]=((p-18)^2+(q-8.5)^2&lt;0.2^2)?&squot;F&squot;:r[1];r[2]=((p-17)^2+(q-7.5)^2&lt;0.2^2)?&squot;V&squot;:r[2];r[2]=((p-18)^2+(q-7.5)^2&lt;0.2^2)?&squot;F&squot;:r[2];r[3]=((p-17)^2+(q-6.5)^2&lt;0.2^2)?&squot;V&squot;:r[3];r[3]=((p-18)^2+(q-6.5)^2&lt;0.2^2)?&squot;F&squot;:r[3];r[4]=((p-17)^2+(q-5.5)^2&lt;0.2^2)?&squot;V&squot;:r[4];r[4]=((p-18)^2+(q-5.5)^2&lt;0.2^2)?&squot;F&squot;:r[4];r[5]=((p-17)^2+(q-4.5)^2&lt;0.2^2)?&squot;V&squot;:r[5];r[5]=((p-18)^2+(q-4.5)^2&lt;0.2^2)?&squot;F&squot;:r[5];r[6]=((p-17)^2+(q-3.5)^2&lt;0.2^2)?&squot;V&squot;:r[6];r[6]=((p-18)^2+(q-3.5)^2&lt;0.2^2)?&squot;F&squot;:r[6];r[7]=((p-17)^2+(q-2.5)^2&lt;0.2^2)?&squot;V&squot;:r[7];r[7]=((p-18)^2+(q-2.5)^2&lt;0.2^2)?&squot;F&squot;:r[7];r[8]=((p-17)^2+(q-1.5)^2&lt;0.2^2)?&squot;V&squot;:r[8];r[8]=((p-18)^2+(q-1.5)^2&lt;0.2^2)?&squot;F&squot;:r[8];r[9]=((p-17)^2+(q-.5)^2&lt;0.2^2)?&squot;V&squot;:r[9];r[9]=((p-18)^2+(q-.5)^2&lt;0.2^2)?&squot;F&squot;:r[9];r[10]=((p-17)^2+(q+.5)^2&lt;0.2^2)?&squot;V&squot;:r[10];r[10]=((p-18)^2+(q+.5)^2&lt;0.2^2)?&squot;F&squot;:r[10];'">
+   <param name="A_05" value="id='Inicio' algoritmo='s&iacute;' evaluar='una-sola-vez' hacer='ejercicios=P[0];verifica=0'">
+   <param name="A_06" value="id='Calculos' algoritmo='s&iacute;' evaluar='siempre' hacer='kk=(E1.clic_izquierdo=1)?verifica():kk;correcta1=(r[1]=R[1])+(r[2]=R[2])+(r[3]=R[3])+(r[4]=R[4])+(r[5]=R[5]);correcta2=(r[6]=R[6])+(r[7]=R[7])+(r[8]=R[8])+(r[9]=R[9])+(r[10]=R[10]);correcta=correcta1+correcta2;;'">
+   <param name="A_07" value="id='termina' algoritmo='s&iacute;' evaluar='siempre' inicio='zz=0;termina=0;correctas=0' hacer='zz=zz+1;termina=termina+(r[zz]!=&squot;&squot;);correctas=correctas+(r[zz]=R[zz])' mientras='zz&lt;ejercicios'">
+   <param name="G_01" value="espacio='E1' tipo='imagen' expresi&oacute;n='(10,9.5-s,1,1)' familia='s' s.intervalo='[1,ejercicios]' s.pasos='ejercicios-1' archivo='images/cuadro1.png'">
+   <param name="G_02" value="espacio='E1' tipo='texto' expresi&oacute;n='[-1,-57+40*s]' familia='s' s.intervalo='[1,ejercicios]' s.pasos='ejercicios-1' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Arial;\f4\fcharset0 Courier New;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;}\f1\fs40                \cf0\fs48  \cf1\fs40\par      \cf0\b{\*\mjaformula{\expr P[s]}}\cf1\b0\par \par \par                            \par \par                             \f4\fs24}' fuente='Arial,PLAIN,20' fijo='s&iacute;'">
+   <param name="G_03" value="espacio='E1' tipo='texto' expresi&oacute;n='[-2,-56+40*s]' familia='s' s.intervalo='[1,ejercicios]' s.pasos='ejercicios-1' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Arial;\f4\fcharset0 Arial;\f5\fcharset0 Courier New;}{\colortbl\red219\green216\blue213;\red255\green216\blue156;\red0\green0\blue255;}\f1\fs40\cf0                \fs48  \fs40\par    \fs34\cf1    \fs40\b{\*\mjaformula{\expr P[s]}}\cf2\b0\par \par \par                            \par \par                             \f5\fs24}' fuente='Arial,PLAIN,20' fijo='s&iacute;'">
+   <param name="G_04" value="espacio='E1' tipo='texto' expresi&oacute;n='[574,-53+40*s]' familia='s' s.intervalo='[1,ejercicios]' s.pasos='ejercicios-1' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Arial;\f4\fcharset0 Courier New;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;}\f1\fs40                \cf0\fs48  \cf1\fs40\par \cf0      \fs38\b  {\*\mjaformula V      F}\cf1\fs40\b0\par \par \par                            \par \par                             \f4\fs24}' fuente='Arial,PLAIN,20' fijo='s&iacute;'">
+   <param name="G_05" value="espacio='E1' tipo='texto' expresi&oacute;n='[573,-54+40*s]' familia='s' s.intervalo='[1,ejercicios]' s.pasos='ejercicios-1' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Arial;\f3\fcharset0 Arial;\f4\fcharset0 Courier New;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue0;}\f1\fs40                \cf0\fs48  \cf1\fs40\par      \cf2\fs38\b  {\*\mjaformula V      F}\cf1\fs40\b0\par \par \par                            \par \par                             \f4\fs24}' fuente='Arial,PLAIN,20' fijo='s&iacute;'">
+   <param name="G_06" value="espacio='E1' tipo='arco' color='amarillo' centro='(17,9.55-s)' radio='.2' fin='360' familia='s' s.intervalo='[1,ejercicios]' s.pasos='ejercicios-1' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='2'">
+   <param name="G_07" value="espacio='E1' tipo='arco' color='amarillo' dibujar-si='r[s]=&squot;V&squot;' centro='(17,9.55-s)' radio='.12' fin='360' familia='s' s.intervalo='[1,ejercicios]' s.pasos='ejercicios-1' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' relleno='amarillo' ancho='2'">
+   <param name="G_08" value="espacio='E1' tipo='arco' color='amarillo' centro='(18,9.55-s)' radio='.2' fin='360' familia='s' s.intervalo='[1,ejercicios]' s.pasos='ejercicios-1' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' ancho='2'">
+   <param name="G_09" value="espacio='E1' tipo='arco' color='amarillo' dibujar-si='r[s]=&squot;F&squot;' centro='(18,9.55-s)' radio='.12' fin='360' familia='s' s.intervalo='[1,ejercicios]' s.pasos='ejercicios-1' fuente='Monospaced,PLAIN,12' fijo='s&iacute;' relleno='amarillo' ancho='2'">
+   <param name="G_10" value="espacio='E1' tipo='imagen' dibujar-si='(r[s]=R[s])&amp;(verifica=2)' expresi&oacute;n='(18.8,9.8-s)' familia='s' s.intervalo='[1,ejercicios]' s.pasos='ejercicios-1' archivo='images/bien.png'">
+   <param name="G_11" value="espacio='E1' tipo='imagen' dibujar-si='(r[s]!=R[s])&amp;(verifica=2)' expresi&oacute;n='(18.8,9.8-s)' familia='s' s.intervalo='[1,ejercicios]' s.pasos='ejercicios-1' archivo='images/mal.png'">
+   <param name="G_12" value="espacio='E1' tipo='texto' dibujar-si='(verifica=2)&amp;((correctas=0)|(correctas=1))' expresi&oacute;n='[100,360]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;}\f1\fs46\b\cf0\u161 OBSERVA DE NUEVO EL VIDEO EXPLICATIVO!\cf1\f2\fs24\b0}' fuente='Arial Bold,BOLD,23' fijo='s&iacute;'">
+   <param name="G_13" value="espacio='E1' tipo='texto' dibujar-si='(verifica=1)&amp;((correctas=0)|(correctas=1))' expresi&oacute;n='[101,361]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red255\green0\blue0;\red0\green0\blue255;}\f1\fs46\b\cf0\u161 OBSERVA DE NUEVO EL VIDEO EXPLICATIVO!\cf1\f2\fs24\b0}' fuente='Arial Bold,BOLD,23' fijo='s&iacute;'">
+   <param name="G_14" value="espacio='E1' tipo='texto' dibujar-si='(verifica=1)&amp;((correctas!=ejercicios)&amp;(correctas&gt;1))' expresi&oacute;n='[200,460]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;}\f1\fs46\b\cf0 Tienes  {\*\mjaformula{\expr correctas\decimals 0\fixed1}} respuestas buenas\cf1\f2\fs24\b0}' fuente='Arial Bold,BOLD,23' fijo='s&iacute;'">
+   <param name="G_15" value="espacio='E1' tipo='texto' dibujar-si='(verifica=1)&amp;((correctas!=ejercicios)&amp;(correctas&gt;1))' expresi&oacute;n='[201,461]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red255\green192\blue0;\red0\green0\blue255;}\f1\fs46\b\cf0 Tienes  {\*\mjaformula{\expr correctas\decimals 0\fixed1}} respuestas buenas\cf1\f2\fs24\b0}' fuente='Arial Bold,BOLD,23' fijo='s&iacute;'">
+   <param name="G_16" value="espacio='E1' tipo='texto' dibujar-si='(verifica=2)&amp;(correcta&lt;10)' expresi&oacute;n='[121,411]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;}\f1\fs44\b\cf0\u161 Tienes {\*\mjaformula{\expr correcta\decimals 0\fixed0}} respuestas correctas de 10!\f2\fs24\b0  \cf1}' fuente='Arial Bold,BOLD,22' fijo='s&iacute;'">
+   <param name="G_17" value="espacio='E1' tipo='texto' dibujar-si='(verifica=2)&amp;(correcta&lt;10)' expresi&oacute;n='[120,410]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red255\green126\blue0;\red0\green0\blue255;}\f1\fs44\b\cf0\u161 Tienes {\*\mjaformula{\expr correcta\decimals 0\fixed0}} respuestas correctas de 10!\f2\fs24\b0  \cf1}' fuente='Arial Bold,BOLD,22' fijo='s&iacute;'">
+   <param name="G_18" value="espacio='E1' tipo='texto' dibujar-si='(verifica=2)&amp;(correcta=10)' expresi&oacute;n='[121,411]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green0\blue0;\red0\green0\blue255;}\f1\fs44\b\cf0\u161 Excelente! Todas tus respuestas son correctas.\f2\fs24\b0\cf1}' fuente='Arial Bold,BOLD,22' fijo='s&iacute;'">
+   <param name="G_19" value="espacio='E1' tipo='texto' dibujar-si='(verifica=2)&amp;(correcta=10)' expresi&oacute;n='[120,410]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Arial;\f2\fcharset0 Courier New;}{\colortbl\red0\green255\blue0;\red0\green0\blue255;}\f1\fs44\b\cf0\u161 Excelente! Todas tus respuestas son correctas.\f2\fs24\b0\cf1}' fuente='Arial Bold,BOLD,22' fijo='s&iacute;'">
+</ajs>
+
+</body>
+<script type="descartes/vectorFile" id="textos/preguntas.txt">
+10
+
+'En ingles ROJO se dice RED'
+'La capital del Valle del Cauca es Palmira'
+'Colombia esta ubicada en el continente Europeo'
+'Un año tiene 365 días, los bisiestos tienen 366'
+'El color Blanco indica la presencia de todos los colores'
+'Gabriel García Márquez es un escritor Colombiano'
+'El Sol en las mañanas sale por el Occidente'
+'La ciudad de Jamundi queda al sur de Cali'
+'El Rio Magdalena desemboca en el mar Caribe '
+'El desierto de la Guajira queda en la zona norte de Colombia'
+</script>
+<script type="descartes/vectorFile" id="textos/respuestas.txt">
+'Escribe la respuesta correcta de cada pregunta'
+
+'V'
+'F'
+'F'
+'V'
+'V'
+'V'
+'F'
+'V'
+'V'
+'V'
+</script>
+</html>

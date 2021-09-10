@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>TITULO</title>
+  
+  <script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+
+<body style="margin:0; background:#eff0f1;">
+  <link rel="stylesheet" href="fonts/style.css" type="text/css">
+
+  <div align="center">
+    <ajs name="Descartes" code="Descartes" width="790" height="500">
+      <param name="tamaño" value="790x500">
+      <param name="decimal_symbol" value=".">
+      <param name="image_loader" value="images/transp_1x1.png">
+      <param name="expand" value="">
+      <param name="nombre" value="Descartes">
+      <param name="Versión" value="5.5">
+      <param name="antialias" value="sí">
+      <param name="deshacer" value="no">
+      <param name="editable" value="no">
+      <param name="Idioma" value="español">
+      <param name="Botones" value="créditos=no config=no inicio=no limpiar=no filas_norte=0 filas_sur=0 ancho_este=150 ancho_oeste=150 alto=40 ">
+      <param name="E_01" value="tipo='R2' id='E1' x='0' y='0' ancho='100%' alto='100%' dibujar-si='1' fijo='sí' escala='50' O.x='-50%' O.y='50%' despl_imagen='arr-izq' fondo='00c0ff' red='no' red10='no' ejes='no' texto='no' números='no' sensible_a_los_movimientos_del_ratón='no' ">
+      <param name="E_02" value="tipo='R2' id='P1' x='g1.x*50-395' y='90' ancho='100%' alto='70' dibujar-si='1' fijo='no' escala='50' O.x='0' O.y='0' despl_imagen='arr-izq' fondo='f0f8fa' red='no' red10='no' ejes='no' texto='no' números='no' sensible_a_los_movimientos_del_ratón='sí' ">
+      <param name="E_03" value="tipo='R2' id='P2' x='g2.x*50-395' y='180' ancho='100%' alto='70' dibujar-si='1' fijo='no' escala='50' O.x='0' O.y='0' despl_imagen='arr-izq' fondo='f0f8fa' red='no' red10='no' ejes='no' texto='no' números='no' sensible_a_los_movimientos_del_ratón='sí' ">
+      <param name="E_04" value="tipo='R2' id='P3' x='g3.x*50-395' y='270' ancho='100%' alto='70' dibujar-si='1' fijo='no' escala='50' O.x='0' O.y='0' despl_imagen='arr-izq' fondo='f0f8fa' red='no' red10='no' ejes='no' texto='no' números='no' sensible_a_los_movimientos_del_ratón='sí' ">
+      <param name="E_05" value="tipo='R2' id='P4' x='g4.x*50-395' y='360' ancho='100%' alto='70' dibujar-si='1' fijo='no' escala='50' O.x='0' O.y='0' despl_imagen='arr-izq' fondo='f0f8fa' red='no' red10='no' ejes='no' texto='no' números='no' sensible_a_los_movimientos_del_ratón='sí' ">
+      <param name="E_06" value="tipo='R2' id='mascara' x='0' y='0' ancho='100%' alto='100%' dibujar-si='1' fijo='sí' escala='50' O.x='-50%' O.y='50%' despl_imagen='arr-izq' fondo='ffffffff' red='no' red10='no' ejes='no' texto='no' números='no' sensible_a_los_movimientos_del_ratón='no' ">
+      <param name="C_01" value="id='g1' tipo='gráfico' espacio='mascara' color='222222' color-int='f0f8ff' tamaño='20' expresión='(7.9,7.5)' constricción='(y=7.5)' imagen='images/boton.png' activo-si='ver=0' ">
+      <param name="C_02" value="id='g2' tipo='gráfico' espacio='mascara' color='222222' color-int='f0f8ff' tamaño='20' expresión='(7.9,5.7)' constricción='(y=5.7)' imagen='images/boton.png' activo-si='ver=0' ">
+      <param name="C_03" value="id='g3' tipo='gráfico' espacio='mascara' color='222222' color-int='f0f8ff' tamaño='20' expresión='(7.9,3.9)' constricción='(y=3.9)' imagen='images/boton.png' activo-si='ver=0' ">
+      <param name="C_04" value="id='g4' tipo='gráfico' espacio='mascara' color='222222' color-int='f0f8ff' tamaño='20' expresión='(7.9,2.1)' constricción='(y=2.1)' imagen='images/boton.png' activo-si='ver=0' ">
+      <param name="C_05" value="id='veri' interfaz='botón' tipo='numérico' región='interior' espacio='mascara' nombre='Verificar' expresión='((E1._w-180)/2-10,440,200,46)' valor='0' visible='sí' color='ffffff' borderColor='no' color-int='fec639' flat='no' text_align='a_center_center' image_align='a_center_center' negrita='no' cursiva='no' subrayada='no' fuente puntos='22' imagen='_STYLE_|border=3|borderRadius=10|borderColor=ffffff|overColor=e0a12b|downColor=e0a12b|inactiveColor=b0b0b0|font=Monospace|shadowTextColor=a6620e|shadowBoxColor=808080|shadowInsetBoxColor=b46100' acción='calcular' parámetro='ver=1;buenas=buenas+(rc1=rta1)+(rc2=rta2)+(rc3=rta3)+(rc4=rta4);nota=(buenas*Nmax[1]/4);var1=nota;parent.set(&squot;var1&squot;,var1);parent.update()' dibujar-si='(termina=4)&(ver=0)' ">
+      <param name="A_01" value="id='aleatoriedad()' algoritmo='sí' expresión='0' hacer='r1=ent(rnd*2);r2=ent(rnd*2);r3=ent(rnd*2);r4=ent(rnd*2);;iniciapermutacionSI();permutaSI(sumaSI);iniciapermutacionNO();permutaNO(sumaNO);;;preg1=(r1=1)?SI[permutacionSI[0]+1]:NO[permutacionNO[0]+1];preg2=(r2=1)?SI[permutacionSI[1]+1]:NO[permutacionNO[1]+1];preg3=(r3=1)?SI[permutacionSI[2]+1]:NO[permutacionNO[2]+1];preg4=(r4=1)?SI[permutacionSI[3]+1]:NO[permutacionNO[3]+1];;rc1=(r1=1)?&squot;si&squot;:&squot;no&squot;);rc2=(r2=1)?&squot;si&squot;:&squot;no&squot;);rc3=(r3=1)?&squot;si&squot;:&squot;no&squot;);rc4=(r4=1)?&squot;si&squot;:&squot;no&squot;);' tipo='función' ">
+      <param name="A_02" value="id='Nmax' vector='sí' evaluar='una-sola-vez' tamaño='3' expresión='Nmax[0]=0;Nmax[1]=0;Nmax[2]=0' archivo='textos/N_maxima.txt' tipo='vector' ">
+      <param name="A_03" value="id='SI' vector='sí' evaluar='una-sola-vez' tamaño='50' archivo='textos/SI.txt' tipo='vector' ">
+      <param name="A_04" value="id='NO' vector='sí' evaluar='una-sola-vez' tamaño='50' expresión='NO[0]=0;NO[1]=0;NO[2]=0' archivo='textos/NO.txt' tipo='vector' ">
+      <param name="A_05" value="id='arrastre()' algoritmo='sí' expresión='0' hacer='g1.x=(g1.x<7.6)?6.3:g1.x;g1.x=(g1.x>8.3)?9.5:g1.x;g2.x=(g2.x<7.6)?6.3:g2.x;g2.x=(g2.x>8.3)?9.5:g2.x;g3.x=(g3.x<7.6)?6.3:g3.x;g3.x=(g3.x>8.3)?9.5:g3.x;g4.x=(g4.x<7.6)?6.3:g4.x;g4.x=(g4.x>8.3)?9.5:g4.x;;g1.x=(g1.x>=7.6)&(g1.x<=8.3)?7.9:g1.x;g2.x=(g2.x>=7.6)&(g2.x<=8.3)?7.9:g2.x;g3.x=(g3.x>=7.6)&(g3.x<=8.3)?7.9:g3.x;g4.x=(g4.x>=7.6)&(g4.x<=8.3)?7.9:g4.x' tipo='función' ">
+      <param name="A_06" value="id='cuentaSI()' algoritmo='sí' expresión='0' inicio='si=0;sumaSI=0' hacer='si=si+1;sumaSI=(SI[si]!=0)?sumaSI+1:sumaSI' mientras='si<49' tipo='función' ">
+      <param name="A_07" value="id='cuentaNO()' algoritmo='sí' expresión='0' inicio='no=0;sumaNO=0' hacer='no=no+1;sumaNO=(NO[no]!=0)?sumaNO+1:sumaNO' mientras='no<49' tipo='función' ">
+      <param name="A_08" value="id='iniciapermutacionSI()' algoritmo='sí' expresión='0' inicio='i=0' hacer='permutacionSI[i]=i;i=i+1;' mientras='i<50' tipo='función' ">
+      <param name="A_09" value="id='permutaSI(n)' algoritmo='sí' expresión='0' inicio='i=0' hacer='j=ent(n*rnd);k=ent(n*rnd);paso=permutacionSI[j];permutacionSI[j]=permutacionSI[k];permutacionSI[k]=paso;i=i+1' mientras='i<=n*n' tipo='función' ">
+      <param name="A_10" value="id='iniciapermutacionNO()' algoritmo='sí' expresión='0' inicio='i=0' hacer='permutacionNO[i]=i;i=i+1;' mientras='i<8' tipo='función' ">
+      <param name="A_11" value="id='permutaNO(n)' algoritmo='sí' expresión='0' inicio='i=0' hacer='j=ent(n*rnd);k=ent(n*rnd);paso=permutacionNO[j];permutacionNO[j]=permutacionNO[k];permutacionNO[k]=paso;i=i+1' mientras='i<=n*n' tipo='función' ">
+      <param name="A_12" value="id='INICIO' algoritmo='sí' evaluar='una-sola-vez' hacer='cuentaSI();cuentaNO();aleatoriedad();' ">
+      <param name="A_13" value="id='CALCULOS' algoritmo='sí' evaluar='siempre' inicio='rta1=&squot;&squot;;rta2=&squot;&squot;;rta3=&squot;&squot;;rta4=&squot;&squot;;termina=0' hacer='arrastre();rta1=(g1.x=9.5)?&squot;si&squot;:((g1.x=6.3)?&squot;no&squot;:rta1);rta2=(g2.x=9.5)?&squot;si&squot;:((g2.x=6.3)?&squot;no&squot;:rta2);rta3=(g3.x=9.5)?&squot;si&squot;:((g3.x=6.3)?&squot;no&squot;:rta3);rta4=(g4.x=9.5)?&squot;si&squot;:((g4.x=6.3)?&squot;no&squot;:rta4);termina=(rta1!=&squot;&squot;)+(rta2!=&squot;&squot;)+(rta3!=&squot;&squot;)+(rta4!=&squot;&squot;);;' ">
+      <param name="G_01" value="espacio='mascara' tipo='imagen' fondo='no' coord_abs='no' expresión='(g1.x+7.44,8.45)' archivo='images/NO.png' rotini='0' opacidad='1' ">
+      <param name="G_02" value="espacio='mascara' tipo='imagen' fondo='no' coord_abs='no' expresión='(g1.x-9.94,8.6)' archivo='images/SI.png' rotini='0' opacidad='1' ">
+      <param name="G_03" value="espacio='mascara' tipo='imagen' fondo='no' coord_abs='no' expresión='(g2.x+7.44,6.65)' archivo='images/NO.png' rotini='0' opacidad='1' ">
+      <param name="G_04" value="espacio='mascara' tipo='imagen' fondo='no' coord_abs='no' expresión='(g2.x-9.94,6.8)' archivo='images/SI.png' rotini='0' opacidad='1' ">
+      <param name="G_05" value="espacio='mascara' tipo='imagen' fondo='no' coord_abs='no' expresión='(g3.x+7.44,4.85)' archivo='images/NO.png' rotini='0' opacidad='1' ">
+      <param name="G_06" value="espacio='mascara' tipo='imagen' fondo='no' coord_abs='no' expresión='(g3.x-9.94,5)' archivo='images/SI.png' rotini='0' opacidad='1' ">
+      <param name="G_07" value="espacio='mascara' tipo='imagen' fondo='no' coord_abs='no' expresión='(g4.x+7.44,3.05)' archivo='images/NO.png' rotini='0' opacidad='1' ">
+      <param name="G_08" value="espacio='mascara' tipo='imagen' fondo='no' coord_abs='no' expresión='(g4.x-9.94,3.2)' archivo='images/SI.png' rotini='0' opacidad='1' ">
+      <param name="G_09" value="espacio='P1' tipo='texto' fondo='no' color='20303a' expresión='[100,0,590,70]' texto='[preg1]' decimales='2' fijo='sí' ancho='590' fuente='Monospaced,PLAIN,18' align='a_left' anchor='a_top_left' ">
+      <param name="G_10" value="espacio='P2' tipo='texto' fondo='no' color='20303a' expresión='[100,0,590,70]' texto='[preg2]' decimales='2' fijo='sí' ancho='590' fuente='Monospaced,PLAIN,18' align='a_left' anchor='a_top_left' ">
+      <param name="G_11" value="espacio='P3' tipo='texto' fondo='no' color='20303a' expresión='[100,0,590,70]' texto='[preg3]' decimales='2' fijo='sí' ancho='590' fuente='Monospaced,PLAIN,18' align='a_left' anchor='a_top_left' ">
+      <param name="G_12" value="espacio='P4' tipo='texto' fondo='no' color='20303a' expresión='[100,0,590,70]' texto='[preg4]' decimales='2' fijo='sí' ancho='590' fuente='Monospaced,PLAIN,18' align='a_left' anchor='a_top_left' ">
+      <param name="G_13" value="espacio='P1' tipo='imagen' fondo='no' dibujar-si='(rc1=rta1)&(ver)' coord_abs='no' expresión='(0,0,1,1)' archivo='images/verdadero.png' rotini='0' opacidad='1' ">
+      <param name="G_14" value="espacio='P1' tipo='imagen' fondo='no' dibujar-si='(rc1!=rta1)&(ver)' coord_abs='no' expresión='(0,0,1,1)' archivo='images/falso.png' rotini='0' opacidad='1' ">
+      <param name="G_15" value="espacio='P2' tipo='imagen' fondo='no' dibujar-si='(rc2=rta2)&(ver)' coord_abs='no' expresión='(0,0,1,1)' archivo='images/verdadero.png' rotini='0' opacidad='1' ">
+      <param name="G_16" value="espacio='P3' tipo='imagen' fondo='no' dibujar-si='(rc3=rta3)&(ver)' coord_abs='no' expresión='(0,0,1,1)' archivo='images/verdadero.png' rotini='0' opacidad='1' ">
+      <param name="G_17" value="espacio='P4' tipo='imagen' fondo='no' dibujar-si='(rc4=rta4)&(ver)' coord_abs='no' expresión='(0,0,1,1)' archivo='images/verdadero.png' rotini='0' opacidad='1' ">
+      <param name="G_18" value="espacio='P2' tipo='imagen' fondo='no' dibujar-si='(rc2!=rta2)&(ver)' coord_abs='no' expresión='(0,0,1,1)' archivo='images/falso.png' rotini='0' opacidad='1' ">
+      <param name="G_19" value="espacio='P3' tipo='imagen' fondo='no' dibujar-si='(rc3!=rta3)&(ver)' coord_abs='no' expresión='(0,0,1,1)' archivo='images/falso.png' rotini='0' opacidad='1' ">
+      <param name="G_20" value="espacio='P4' tipo='imagen' fondo='no' dibujar-si='(rc4!=rta4)&(ver)' coord_abs='no' expresión='(0,0,1,1)' archivo='images/falso.png' rotini='0' opacidad='1' ">
+      <param name="G_21" value="espacio='E1' tipo='texto' fondo='no' color='ffffff' expresión='[40,25]' texto='Arrastra hacia la derecha las afirmaciones que son correctas y hacia la izquierda las que no lo son' decimales='2' fijo='sí' ancho='780' color_borde_texto='000000' fuente='Monospaced,PLAIN,20' align='a_center' anchor='a_top_left' ">
+      <param name="G_22" value="espacio='E1' tipo='texto' fondo='no' color='30afffb3' dibujar-si='(ver)&(buenas=4)' expresión='[0,440,790,10]' texto='¡Excelente! Todas las respuestas son correctas' decimales='0' fijo='sí' ancho='790' color_borde_texto='000000' fuente='Monospaced,PLAIN,20' align='a_center' anchor='a_top_left' ">
+      <param name="G_23" value="espacio='E1' tipo='texto' fondo='no' color='2cffe900' dibujar-si='(ver)&(buenas=3)' expresión='[0,440,790,10]' texto='Tienes tres respuestas correctas' decimales='0' fijo='sí' ancho='790' color_borde_texto='000000' fuente='Monospaced,PLAIN,20' align='a_center' anchor='a_top_left' ">
+      <param name="G_24" value="espacio='E1' tipo='texto' fondo='no' color='2cffc000' dibujar-si='(ver)&(buenas=2)' expresión='[0,440,790,10]' texto='Tienes dos respuestas correctas' decimales='0' fijo='sí' ancho='790' color_borde_texto='000000' fuente='Monospaced,PLAIN,20' align='a_center' anchor='a_top_left' ">
+      <param name="G_25" value="espacio='E1' tipo='texto' fondo='no' color='41ff8a00' dibujar-si='(ver)&(buenas=1)' expresión='[0,440,790,10]' texto='¡Sólo una respuesta correcta!' decimales='0' fijo='sí' ancho='790' color_borde_texto='000000' fuente='Monospaced,PLAIN,20' align='a_center' anchor='a_top_left' ">
+      <param name="G_26" value="espacio='E1' tipo='texto' fondo='no' color='59ffffff' dibujar-si='(ver)&(buenas=0)' expresión='[0,440,790,10]' texto='¡Ninguna respuesta correcta!' decimales='0' fijo='sí' ancho='790' color_borde_texto='000000' fuente='Monospaced,PLAIN,20' align='a_center' anchor='a_top_left' ">
+      <param name="G_27" value="espacio='E1' tipo='texto' fondo='no' color='ffffff' dibujar-si='ver' expresión='[0,470,790,10]' texto='' decimales='1' fijo='sí' ancho='790' color_borde_texto='000000' fuente='Monospaced,BOLD,22' align='a_center' anchor='a_top_left' ">
+    </ajs>
+  </div>
+
+<script type="descartes/vectorFile" id="textos/N_maxima.txt">
+'Nota máxima'
+10
+</script>
+
+<script type="descartes/vectorFile" id="textos/SI.txt">
+'Escribe, al menos, cuatro afirmaciones correctas'
+'Cuando un avión aterriza es obligatorio usar el cinturón de seguridad.'
+'La revolución industrial se inició en Gran Bretaña y luego se expandió hacia Europa y USA.'
+'En Colombia todas las personas mayores de edad deben portar la cédula para identificarse.'
+'Marie Curie murió a causa de la radiación a la que se expuso toda su vida.'
+'El café es muy estimulante por su contenido de cafeína.'
+'Comer un pez globo puede matarte si no está bien preparado.'
+'En la mitología judeo-cristiana la manzana era el fruto del árbol prohibido.'
+</script>
+
+<script type="descartes/vectorFile" id="textos/NO.txt">
+'Escribe, al menos, cuatro afirmaciones incorrectas'
+'Tenemos un promedio de entre 400.000 y 500.000 pelos en la cabeza.'
+'Durante su vida, un hombre con una alimentación normal puede ingerir una cantidad de alimentos equivalente al peso de cien elefantes.'
+'Las huellas dactilares suelen estar determinadas por nuestros genes, así que pueden tener ciertas semejanzas con las de nuestros progenitores.'
+'Una tostada con mantequilla lanzada al aire cae por el lado de la mantequilla tres de cada cuatro veces.'
+'La Gran Muralla China es la única obra construida por el hombre visible a simple vista desde el espacio.'
+'La principal limitación de las neuronas de nuestro cerebro es que si son dañadas no tienen la posibilidad de regenerarse.'
+'Si tiras una moneda desde lo alto de un rascacielos, puedes atravesarle el cráneo a alguien.'
+'El Apolo 13 fue la primera misión que logró pisar la luna.'
+'Isaac Newton invento el puré de manzanas.'
+
+</script>
+
+</body>
+</html>

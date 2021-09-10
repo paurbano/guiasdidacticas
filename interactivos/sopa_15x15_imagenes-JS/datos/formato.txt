@@ -1,0 +1,2 @@
+'Entra el formato de las imágenes, 1 para jpg o 2 para gif'
+2

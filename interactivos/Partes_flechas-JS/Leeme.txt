@@ -1,0 +1,11 @@
+Máximo siete partes
+
+Los ficheros son:
+
+* partes: el primer dato es el número de partes, luego vienen los textos correspondientes a cada parte
+
+* coordenadas. son los valores (x,y) que identifica la posición de inicio de la flecha en la parte señalada
+
+* imagen. Es una imagen seleccionada por el usario que debe tener un máximo de 400x400 pixeles (Carlos sabe como redimensionar en php), su nombre es img1.png
+
+Es importante que en la plantilla aparezca el applet llamado "coordenadas.html", el cual le permite al usuario identificar las coordenadas de cada parte. 
